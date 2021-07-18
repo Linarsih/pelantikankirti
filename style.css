@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Pacifico&family=Righteous&family=Roboto+Condensed:wght@300&family=Ubuntu:ital,wght@1,300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.content h2{
+    color:rgb(194, 52, 52);
+     font-family: 'roboto-condensend';
+      font-size: 4em;
+}
+.navbar-brand {
+    font-family: 'pacifico';
+    color: lightcoral;
+    font-size: 35px;
+  }
+  .nav-link {
+    font-size: 16px;
+    margin: 15px;
+    color: lightcoral !important;
+    font-family: 'roboto condensend' !important;
+  }
+  .nav-link:hover {
+    color: cadetblue !important;
+  }
+  .active .nav-link {
+    color: cadetblue !important;
+  }
+  .banner {
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(img/bg00.jpg);
+    background-size: cover;
+  }
+  .btn {
+    font-size: 1em;
+    background: #ff0157;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 1s;
+  }
+.btn:hover{
+    letter-spacing: 5px;
+}
+.testimonials{
+  background: url(img/bg3.jpg);
+  background-size: cover;
+  padding-top: 5rem;
+}
+ .row .title {
+   color: white;
+ }
+.testimonials .content{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-decoration: row;
+  margin-top: 40px;
+  margin-bottom:20px;
+}
+.testimonials .content .box{
+  width: 340px;
+  margin: 20px;
+  padding: 40px;
+  display: flex;
+  background: #fff;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.testimonials .content .box .imgBx{
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+.testimonials .content .box .text{
+  text-align: center;
+  
+}
+.testimonials .content .box .text p{
+  color: white;
+}
+section {
+    padding-top:5rem;
+}
+.contact .container .col h2{
+  color: black;
+}
+.ContactForm{
+  align-content: center;
+  padding:75px 50px;
+  background: #fff;
+  box-shadow: 15px 0px 50px rgb(0,0,0,0.1);
+  max-width: 500px;
+  margin-top:50px;
+}
+.ContactForm h3{
+  color: #111;
+  font-style: 1-2em;
+  margin-bottom:20px;
+  font-family: 500;
+}
+.ContactForm .inputBox{
+  position:relative;
+  width: 100%;
+  margin-bottom: 40px;
+}
+.ContactForm .inputBox input{
+  width: 100%;
+  border: 1px solid #555;
+  padding: 10px;
+  color: #111;
+  outline: none;
+  font-size: 16px;
+  font-weight: 300;
+  resize: none;
+}
+.ContactForm .inputBox .input[type="submit"]{
+  font-size: 1em;
+  color:#fff;
+  background: #ff0157;
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  transition: 0.5s;
+  max-width: 100px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
+.footer .text {
+  padding: 0;
+  margin:0;
+  background-color: rgb(126, 49, 61);
+}
