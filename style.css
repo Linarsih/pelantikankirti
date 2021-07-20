@@ -55,11 +55,26 @@
 .testimonials{
   background: url(img/bg3.jpg);
   background-size: cover;
-  padding-top: 5rem;
 }
  .row .title {
    color: white;
  }
+ 
+ .menu .container{
+  row-gap: 2rem;
+}
+.menu .card{
+  box-shadow: 0 4px 25px rgba(14,36,49,.15);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.menu .card{
+  transition: 1s;
+  cursor: pointer;
+}
+.menu .card img:hover{
+  transform: scale(1.1);
+}
 .testimonials .content{
   display:flex;
   justify-content: center;
